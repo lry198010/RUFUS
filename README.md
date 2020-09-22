@@ -94,9 +94,9 @@ Usage:
 
  
  ```
--s,--subject: bam file containing the subject of interest (REQUIRED)
+-s,--subject: bam or generator file for the subject of interest (REQUIRED)
 
--c, --controls: bam files containing the control subjects (REQUIRED)
+-c, --controls: bam or generator file of the parent or control sample (-c required for each file, REQUIRED)
 
 -t,--threads: number of threads to use (REQUIRED) (min 3)
 
