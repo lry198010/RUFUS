@@ -141,7 +141,7 @@ or
 bash runRufus.sh -s Proband.bam -c Mother.bam -c Father.bam -c Sibling1.bam -c Sibling2.bam -k 25 -t 40 -r human_reference_v37_decoys.fa
 ```
 
-We recommend a kmer size of 25, 40 threads, and to NOT provide RUFUS with the optional --min parameter
+We recommend a kmer size of 25 and to NOT provide RUFUS with the optional --min parameter
 
 ## Providing a reference file.
 
